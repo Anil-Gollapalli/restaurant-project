@@ -1,0 +1,195 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e29d; /* Soft yellow background */
+    background-image: url('https://www.transparenttextures.com/patterns/hexagons.png'); /* Honeycomb texture */
+    background-size: 100px 100px;
+    color: #4d3d1b; /* Darker brown for text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #f8c63e; /* Honey yellow background */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #c88d1a; /* Darker yellow border */
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav button {
+    background-color: #fbc536; /* Light yellow button */
+    border: 2px solid #c88d1a; /* Darker yellow border */
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #f79c2f;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:focus {
+    outline: none;
+  }
+  
+  /* Content Section Styling */
+  #content {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f8e57f; /* Honey yellow */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #8a5a3c;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Image Styling */
+  .dish img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Menu Item Styling */
+  .menu-item {
+    background-color: #fbc536;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #c88d1a;
+    position: relative;
+  }
+  
+  .menu-item:hover {
+    background-color: #f79c2f;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Contact Section Styling */
+  .contact-info {
+    background-color: #f8e57f;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .contact-info h1 {
+    font-size: 2.5em;
+    color: #4d3d1b;
+  }
+  
+  .contact-info p {
+    font-size: 1.2em;
+    color: #4d3d1b;
+  }
+  
+  /* Section Heading Styles */
+  h3 {
+    font-size: 1.8em;
+    color: #8a5a3c;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Menu Items Section */
+  .menu-item {
+    text-align: center;
+  }
+  
+  .menu-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item li {
+    font-size: 1.4em;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .menu-item li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive Design for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav button {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .menu-item {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .menu-item h3 {
+      font-size: 1.5em;
+    }
+  
+    #content {
+      margin-top: 10px;
+      padding: 10px;
+    }
+  }
+  
+  /* Styling for the Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8c63e;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
