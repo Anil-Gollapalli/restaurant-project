@@ -12,10 +12,10 @@
 export default function homeTab() {
   const div = document.createElement('div');
   div.innerHTML = `
-    <h1>Welcome to Our Restaurant!</h1>
-    <!-- Online Image URL for Restaurant Dish -->
-    <img src="https://images.unsplash.com/photo-1504513372073-d4ab616e3d39" alt="Restaurant Dish">
-    <p>Enjoy our delicious meals and great service.</p>
+    <h1>Welcome to Anil's Restaurant!</h1>
+    <!-- Local Image for Restaurant Dish -->
+    <img src="./images/chef.jpeg" alt="Restaurant Dish">
+   <p><marquee>Enjoy our delicious meals and great service.</marquee></p>
   `;
   return div;
 }
