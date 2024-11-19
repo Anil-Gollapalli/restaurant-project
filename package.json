@@ -4,8 +4,11 @@
   "description": "A simple restaurant website with tabbed navigation.",
   "main": "src/index.js",
   "devDependencies": {
-<<<<<<< HEAD
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.0.0",
@@ -13,23 +16,9 @@
     "webpack-dev-server": "^4.0.0"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "webpack serve"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-=======
-    "gh-pages": "^3.2.3",
-    "webpack": "^5.0.0",
-    "webpack-cli": "^4.0.0",
-    "webpack-dev-server": "^4.0.0"
-  },
-  "scripts": {
     "start": "webpack serve",
     "build": "webpack",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://anil-gollapalli.github.io/restaurant-project/"
->>>>>>> bfee5ea264b9f902187cf80da24cd43a9fe22e95
 }
