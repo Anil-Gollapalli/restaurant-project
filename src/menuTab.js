@@ -12,7 +12,7 @@ export default function menuTab() {
       <p>Roti with kurma</p>
     </div>
     <div class="menu-item">
-      <img src="../images/pizzaa.jpeg" alt="Pizzaa">
+      <img src="../images/pizzaa.jpg" alt="Pizzaa">
       <p>Pizzaaa</p>
     </div>
   `;
