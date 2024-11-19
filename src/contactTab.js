@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function contactTab() {
     const div = document.createElement('div');
     div.innerHTML = `
@@ -7,3 +8,25 @@ export default function contactTab() {
     return div;
   }
   
+=======
+// export default function contactTab() {
+//     const div = document.createElement('div');
+//     div.innerHTML = `
+//       <h1>Contact Us</h1>
+//       <p>Call us at 123-456-7890 or email us at contact@restaurant.com</p>
+//     `;
+//     return div;
+//   }
+  
+
+export default function contactTab() {
+  const div = document.createElement('div');
+  div.innerHTML = `
+    <h1>Contact Us</h1>
+    <!-- Example Contact Image -->
+    <img src="./images/chef.jpeg" alt="Contact Image">
+    <p>Call us at 123-456-7890 or email us at contact@restaurant.com</p>
+  `;
+  return div;
+}
+>>>>>>> bfee5ea264b9f902187cf80da24cd43a9fe22e95
