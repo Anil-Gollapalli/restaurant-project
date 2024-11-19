@@ -1,20 +1,9 @@
-export default function menuTab() {
+export default function homeTab() {
   const div = document.createElement('div');
   div.innerHTML = `
-    <h1>Our Menu</h1>
-    <!-- Menu Dish Image -->
-    <div class="menu-item">
-      <img src="../images/burger.jpg" alt="Burger">
-      <p>Burger</p>
-    </div>
-    <div class="menu-item">
-      <img src="../images/roti.jpg" alt="Roti">
-      <p>Roti with kurma</p>
-    </div>
-    <div class="menu-item">
-      <img src="../images/pizzaa.jpeg" alt="Pizzaa">
-      <p>Pizzaaa</p>
-    </div>
+    <h1>Welcome to Anil's Restaurant!</h1>
+    <img src="./images/chef.jpg" alt="Restaurant Dish">
+    <p><marquee>Enjoy our delicious meals and great service.</marquee></p>
   `;
   return div;
 }
