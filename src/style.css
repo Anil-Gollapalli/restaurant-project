@@ -143,6 +143,16 @@ nav button:focus {
   color: #4d3d1b;
 }
 
+/* Updated Contact Tab Image Styling */
+.contact-info img {
+  width: 100%;                 /* Ensures the image takes up full width of its container */
+  max-width: 350px;            /* Keeps the image size similar to the home tab image */
+  height: auto;                /* Auto height for maintaining aspect ratio */
+  border-radius: 10px;         /* Rounded corners for image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow effect */
+  margin-bottom: 15px;         /* Margin below the image */
+}
+
 /* Responsive Design for Mobile Devices */
 @media screen and (max-width: 768px) {
   nav {
